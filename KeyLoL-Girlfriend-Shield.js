@@ -93,7 +93,7 @@
         .split(',')
         .map((s) => s.trim())
         .filter((s) => s)
-    : ['女朋友'];
+    : ['女朋友','女票'];
   let change_my_key = () => {
     keywords = $('#GFbox')
       .val()
