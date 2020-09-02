@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @require      https://cdn.bootcdn.net/ajax/libs/lodash.js/0.1.0/lodash.min.js
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.min.js
-// @version      0.0.1
+// @version      0.0.7
 // @description  其乐狗粮屏蔽器
 // @author       jimmyHarrison
 // @match        https://keylol.com/*
@@ -242,7 +242,7 @@
     .querySelector('#nav-user-action-bar > ul')
     .insertAdjacentHTML(
       'beforeEnd',
-      '<li><a class="btn btn-user-action" href="javascript:" id="goout_gf_key_config"> 关闭狗粮 </a></li>'
+      '<li><a class="btn btn-user-action" href="javascript:" id="goout_gf_key_config"> 屏蔽狗粮 </a></li>'
     );
   document
     .querySelector('#goout_gf_key_config')
