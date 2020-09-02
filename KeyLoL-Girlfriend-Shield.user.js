@@ -8,7 +8,7 @@
 // @author       jimmyHarrison
 // @match        https://keylol.com/*
 // @grant        GM_addStyle
-// @updateURL    https://raw.githubusercontent.com/HarrisonDo/KeyLoL-Girlfriend-Shield/master/KeyLoL-Girlfriend-Shield.js
+// @updateURL    https://raw.githubusercontent.com/HarrisonDo/KeyLoL-Girlfriend-Shield/master/KeyLoL-Girlfriend-Shield.user.js
 // ==/UserScript==
 
 (function () {
