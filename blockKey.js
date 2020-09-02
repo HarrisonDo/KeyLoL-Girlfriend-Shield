@@ -212,7 +212,7 @@
   };
   var settingBox = `
     <div class="gf-tool-modal">
-        <h2 class="gf-tool-title">关键词转换工具</h2>
+        <h2 class="gf-tool-title">狗粮屏蔽！！！！</h2>
         <div class="gf-tool-body">
             <span>关键词(用英文逗号区分）：</span>
             <input type="text" id='GFbox'>
