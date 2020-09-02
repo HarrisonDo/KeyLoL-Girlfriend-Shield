@@ -5,9 +5,10 @@
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.min.js
 // @version      0.0.1
 // @description  其乐狗粮屏蔽器
-// @author       PigeonJimmy
+// @author       jimmyHarrison
 // @match        https://keylol.com/*
 // @grant        GM_addStyle
+// @updateURL    https://raw.githubusercontent.com/HarrisonDo/KeyLoL-Girlfriend-Shield/master/KeyLoL-Girlfriend-Shield.js
 // ==/UserScript==
 
 (function () {
