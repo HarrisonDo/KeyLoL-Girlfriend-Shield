@@ -62,7 +62,7 @@
     }
 
     .btn-box a:hover {
-        border: 0
+        text-decoration:none;
     }
 
     .btn-box .primary {
@@ -71,9 +71,20 @@
         border-color: #40a9ff;
     }
 
+    .btn-box .primary:hover {
+        color: #fff;
+        background: #1d7bc7;
+        border-color: #1d7bc7;
+    }
+
     .btn-box .close {
         color: #000;
-        border: 1px solid #40a9ff;
+        border: 1px solid #eee;
+    }
+
+    .btn-box .close:hover {
+        color: #000;
+        border-color: #1d7bc7;
     }`
   );
   let storageGFKey = localStorage.getItem('girlfriendKey');
