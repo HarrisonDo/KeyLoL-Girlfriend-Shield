@@ -132,7 +132,7 @@
             keywords[i] != '' &&
             thread.querySelector('a.xst').innerHTML.indexOf(keywords[i]) != -1
           )
-            thread.innerHTML = thread.innerHTML.replace(keywords[i], '兄弟');
+            thread.querySelector('a.xst').innerHTML = thread.querySelector('a.xst').innerHTML.replace(keywords[i], '兄弟');
         }
       };
 
@@ -204,7 +204,7 @@
             keywords[i] != '' &&
             thread.querySelector('a.xst').innerHTML.indexOf(keywords[i]) != -1
           )
-            thread.innerHTML = thread.innerHTML.replace(keywords[i], '兄弟');
+            thread.querySelector('a.xst').innerHTML = thread.querySelector('a.xst').innerHTML.replace(keywords[i], '兄弟');
         }
       });
     } else if (window.location.pathname == '/') {
@@ -217,7 +217,7 @@
             keywords[i] != '' &&
             thread.querySelector('li > a:last-child').innerHTML.indexOf(keywords[i]) != -1
           )
-            thread.innerHTML = thread.innerHTML.replace(keywords[i], '兄弟');
+            thread.querySelector('li > a:last-child').innerHTML = thread.querySelector('li > a:last-child').innerHTML.replace(keywords[i], '兄弟');
         }
       });
     }
